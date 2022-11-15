@@ -1,0 +1,92 @@
+<div class="mobile_menu">
+	<hmenu>
+		<div class="hmenu_logo">
+				<img src="./image/564b940d5c2236339bf6043d5a777395.png" alt="" class="hmenu_logo_ico" />
+				<img src="./image/ce5f9696614828e11b175536a46caa46.png" alt="" class="hmenu_logo_text" />
+		</div>
+		<div class="bar_btn_hhmenu">
+			<button onclick="open_menu_mobile('0')"><i class="fa-solid fa-close"></i></button>
+		</div>
+	</hmenu>
+	<bmenu>
+		<a href="/">Главная</a>
+		<a href="/?p=events">Мероприятия</a>
+		<a href="/?p=articles">Статьи</a>
+		<a href="/?p=videos">Фильмы</a>
+		<a href="/?p=archive">Архив</a>
+		<a href="/?p=gallery">Галерея</a>
+		<a href="/?p=bookcrossing">Буккроссинг</a>
+		<a href="/?p=about">Контакты</a>
+	</bmenu>
+	<fmenu>
+		<a href="">Поддержать проект</a>
+	</fmenu>
+</div>
+<div class="flex layout">
+	<div class="flex1 layout1">
+		<div class="item">
+			<div class="flex1 layout">
+				<div class="item1">
+					<img src="./image/564b940d5c2236339bf6043d5a777395.png" alt="" class="image12 layout" />
+				</div>
+				<div class="spacer"></div>
+				<div class="item2">
+					<img src="./image/ce5f9696614828e11b175536a46caa46.png" alt="" class="image13 layout" />
+				</div>
+			</div>
+		</div>
+		<div class="item3">
+			<div class="text_body layout">
+				Фонд поддержки аудиовизуального<br />и технологического искусства имени Б. Галеева
+			</div>
+		</div>
+		<div class="item4">
+			<div class="block22 layout">
+				<div class="line2 layout"></div>
+				<img src="./image/3a16ea7e1bfb8eddee4d306d4a281532.png" alt="" class="icon2 layout" />
+			</div>
+		</div>
+		<div class="item5">
+			<a href="/?p=donate" class="block23 layout">
+				<h4 class="highlights3 layout">Поддержать проект</h4>
+			</a>
+		</div>
+		<div class="bar_btn_head">
+			<button onclick="open_menu_mobile('1')"><i class="fa-solid fa-bars"></i></button>
+		</div>
+	</div>
+	<div class="block20 layout">
+		<div class="flex1 layout2">
+			<div class="item6">
+				<div class="block21 layout">
+					<a href="/" class="highlights4 layout"><i class="fa-solid fa-house"></i></a>
+					<a href="/?p=events" class="highlights4 layout">Мероприятия</a>
+					<a href="/?p=articles" class="highlights4 layout">Статьи</a>
+					<a href="/?p=videos" class="highlights4 layout">Фильмы</a>
+					<a href="/?p=archive" class="highlights4 layout">Архив</a>
+					<a href="/?p=gallery" class="highlights4 layout">Галерея</a>
+					<a href="/?p=bookcrossing" class="highlights4 layout">Буккроссинг</a>
+					<a href="/?p=about" class="highlights4 layout">Контакты</a>
+				</div>
+			</div>
+			<div class="spacer4"></div>
+			<div class="item7">
+				<div class="block2 layout">
+					<a href="//t.me/skbprometheus" target="_blank" class="item"><img src="./image/ecec1a1b18c6426b5f3e8a8700cf524f.svg" alt="" class="image5 layout" /></a>
+					<a href="//vk.com/center.prometheus" target="_blank" class="item1"><img src="./image/vk.png" alt="" class="image6 layout" /></a>
+					<a href="https://www.facebook.com/center.prometheus" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <!--<a href="//instagram.com/" target="_blank"><i class="fab fa-instagram"></i>-->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+function open_menu_mobile(status){
+	if(status == '1'){
+		$('.mobile_menu').css('left', '0%');
+	}else{
+		$('.mobile_menu').css('left', '-100%');
+	}
+}
+</script>
